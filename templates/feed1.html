@@ -80,12 +80,22 @@
                 {% endfor %}
             </div>
             <div class="col">
-                <p>Oсортировать</p>
-                <p></p>
-                <form action="" method="post">
-                    {{ sort.example }}
-                    <button class="btn btn-primary" type="submit" name="sort" value="sort">Sort</button>
-                </form>
+                <div class="sticky-top">
+                    <p>Oсортировать</p>
+                    <p></p>
+                    <form action="" method="post">
+                        {{ sort.example }}
+                        <button class="btn btn-primary" type="submit" name="sort" value="sort">Sort</button>
+                    </form>
+                    <form action="" method="post">
+                        {{ pop.example }}
+                        <button class="btn btn-primary" type="submit" name="sort" value="pop">Sort</button>
+                    </form>
+                    <form action="" method="post">
+                        {{ reg.example }}
+                        <button class="btn btn-primary" type="submit" name="sort" value="reg">Sort</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
